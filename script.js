@@ -11,7 +11,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
     }, 5000); // Tunda 5 detik sebelum memutuskan suara notifikasi
 
     // Membuat suara dari teks "Pesan Dari"
-    var pesanDari = new Audio('audio/pesandari.MP3');
+    var pesanDari = new Audio('audio/pesandari.mp3');
 
 // Membuat suara dari teks nama
 const name = document.getElementById('name');
